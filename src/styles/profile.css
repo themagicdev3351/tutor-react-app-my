@@ -1,0 +1,119 @@
+.avatar-xxl {
+    height: 7.5rem;
+    width: 7.5rem;
+    border-radius: 7px !important;
+    border: 1px solid rgba(0, 0, 0, 0.5) !important;
+}
+
+.profile-details  {
+
+    padding: 24px 16px 16px;
+    border-top: 1px solid #E2E4E9;
+    
+
+}
+
+#myAccordation::after {
+    display: none;
+}
+
+.buttonPrimary {
+
+
+
+
+    
+
+    padding: 0.3rem 1.5rem;
+
+    border-radius: 8px ;
+    border: 1px solid #020617;
+    color: #020617;
+    
+    background-color: white;
+    
+    
+    
+
+
+
+
+    
+
+}
+
+.buttonSecondary {
+
+    
+    
+
+padding: 0.3rem 1.5rem;
+
+border-radius: 8px ;
+border: 1px solid rgba(0, 0, 0, 0.5);
+color: #020617;
+
+background-color: white;
+
+opacity: 0.8;
+
+
+
+
+
+
+
+}
+
+.slotWrapper {
+
+    display: flex;
+    gap: 0.8rem;
+
+margin-bottom: 0.8rem;
+
+
+
+
+}
+
+
+
+
+
+.profileH2 {
+
+
+    position: absolute;
+    top: 10px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+
+    font-weight: 700;
+    font-size: 50px;
+
+
+
+    opacity: 0.1;
+
+
+
+    background: linear-gradient(180deg, #020617 0%, rgba(2, 6, 23, 0) 100%);
+
+
+
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+
+
+    
+
+
+
+
+
+
+
+}

@@ -1,0 +1,51 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@dytesdk/react-ui-kit": "^1.69.0",
+    "@dytesdk/react-web-core": "^1.36.9",
+    "@talkjs/react": "^0.1.9",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "dotenv-cli": "^7.4.2",
+    "firebase": "^10.12.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1",
+    "react-phone-number-input": "^3.4.3",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.8.0",
+    "sass": "^1.77.6",
+    "talkjs": "^0.22.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "dotenv -e .env.development react-scripts start",
+    "build": "dotenv -e .env.production react-scripts build",
+    "build:staging": "dotenv -e .env.staging react-scripts build",
+    "test": "dotenv -e .env.test react-scripts test",
+    "lint": "eslint --ext .js,.jsx src"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

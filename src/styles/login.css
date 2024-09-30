@@ -1,0 +1,269 @@
+.logIn {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    min-height: 100vh;
+}
+
+.imgContainer {
+
+background-image: linear-gradient(180deg, rgba(56, 31, 50, 0) 0%, #381F32 82.5%), url(../assets/background.png);
+background-position: center;
+position: relative;
+
+
+
+
+}
+
+
+
+
+
+.imgBotom {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+.imgBotom div {
+    color: white;
+    
+    
+}
+
+.imgBotom div h4 {
+    
+
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0.3rem;
+
+}
+
+.imgBotom div p {
+
+    font-size: 14px;
+    opacity: 0.8;
+
+}
+
+.roleDiv {
+
+    padding: 3rem 1.5rem;
+    background-color: #F3F4F5;
+
+}
+
+.roleDiv .list-group {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+
+.roleDiv .list-group .list-group-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 162px;
+    height: 90px;
+    justify-content: space-between;
+    padding: 0.5rem;
+    padding-left: 0.8rem;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.roleDiv .list-group .list-group-item  div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 6px;
+    
+
+}
+
+
+.formDiv {
+    padding-top: 3rem;
+    width: 368.2px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.socialDiv {
+
+    display: flex;
+    gap: 1rem;
+    
+
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.PhoneInput {
+    border: 1px solid #e7eaf0;
+
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    
+}
+
+.PhoneInput--focus  {
+
+    outline: 1px solid blue;
+
+}
+
+.PhoneInput--focus .PhoneInputInput {
+    outline: none;
+}
+
+
+
+
+        .chat-container {
+
+
+
+
+                height: calc(100vh - 66px);
+
+
+
+
+        }
+
+
+
+
+        .notifications {
+
+
+                transform: translate(-70%, 100%);
+
+
+        }
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1380px) {
+    .imgContainer {
+        display: none;
+    }
+    .logIn {
+        grid-template-columns: 1fr;
+
+        
+
+    }
+  }
+
+
+
+
+
+
+     
+  
+                                        
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 500px) {
+
+
+
+
+    .notifications {
+
+
+        transform: translate(-50%, 100%);
+
+
+
+    }
+
+
+
+
+    .roleDiv {
+        padding: 3rem 1rem;
+    }
+    .roleDiv .list-group {
+        
+        gap: 1rem;
+
+    }
+  }
+
+
+
+
+
+  @media only screen and (max-width: 992px) {
+    
+
+
+    .chat-container {
+
+
+                    height: calc(100vh - 136px);
+
+
+
+    }
+
+
+
+
+  }
+
+
+
+
+
+  
+.notifications::-webkit-scrollbar {
+
+
+    
+
+
+}
+
+
+                
+
